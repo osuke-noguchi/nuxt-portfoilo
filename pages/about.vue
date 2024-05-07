@@ -5,11 +5,8 @@
   </div> -->
 </template>
 
-<script setup>
-// definePageMeta({
-//   layout: "another",
-// });
-// function enableCustomLayout() {
-//   setPageLayout("another");
-// }
+<script>
+useHead({
+  title: "About",
+});
 </script>
